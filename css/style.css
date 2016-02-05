@@ -1,0 +1,57 @@
+header{
+	background:#222;
+}
+.row {
+	margin-left: -14px;
+	margin-right: -14px;
+}
+
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.col-3{
+	width: 25%;
+}
+.logo{
+	width:100px;
+	height:auto;
+	padding-left:200px;
+}
+.col-9 {
+	width: 75%;
+}
+ul{
+	list-style:none;
+	text-transform: uppercase;
+}
+.lineal{
+	display: inline-block;
+}
+.texto{
+	color:#ccc;
+	font-size: 12px;
+	font-family:Arial; 
+}
+section{
+	background: #aaa;
+}
+.cartel{
+	width:200px;
+	height:auto;
+	margin-left:25px;
+}
+.container{
+	width:950px;
+	height:auto;
+}
+.btn{
+	margin-left:200px;
+}
+p{
+	color:#222;
+	font-family: Arial;
+}
