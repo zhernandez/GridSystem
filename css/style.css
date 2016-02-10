@@ -7,6 +7,9 @@
 }
 ul{
 	list-style:none;
+	margin-top: 20px;
+}
+.may{
 	text-transform: uppercase;
 }
 ul>li{
@@ -25,17 +28,13 @@ ul>li{
 	font-family:Arial; 
 }
 .gris{
-	background: #ddd;
+	background: #eee;
 }
 .cartel{
+	background: #fff;
 	border:solid #000 1px;
 	width:180px;
 	height:auto;
-}
-.container{
-	width:90%;
-	height:auto;
-	margin-left: 10%;
 }
 .btn{
 	margin-top:20px;
@@ -62,6 +61,7 @@ p{
 	border:solid #000 1px;
 	width:100px;
 	height:auto;
+	background: #fff;
 }
 img{
 	padding:2px;
@@ -83,11 +83,16 @@ h3{
 	margin-top:10px;
 }
 .color{
-	background-color: #888;
-}
-.section{
-	background-color: #fff;
+	background-color: #666;
 }
 .peso{
 	font-weight: bold;
+}
+.pie{
+	font-family:Arial;
+	font-size:13px;
+	color: #fff;
+}
+.cajon{
+	margin:30px;
 }
